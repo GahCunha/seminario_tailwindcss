@@ -73,15 +73,14 @@ body {
 }
 
 @layer utilities {
+  .outlined-text {
+    -webkit-text-stroke: 1px hsl(var(--foreground));
+    -webkit-text-fill-color: transparent;
+  }
   @screen lg {
     .outlined-text {
-      -webkit-text-stroke: 3px hsl(var(--foreground));
+      -webkit-text-stroke: 2px hsl(var(--foreground));
       -webkit-text-fill-color: transparent;
     }
   }
-}
-
-.outlined-text {
-  -webkit-text-stroke: 1px hsl(var(--foreground));
-  -webkit-text-fill-color: transparent;
 }
