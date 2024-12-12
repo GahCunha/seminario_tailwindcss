@@ -5,7 +5,7 @@ export function Hero() {
     <section className="mt-20 flex flex-col-reverse items-center p-4 lg:flex-row lg:p-20">
       <div className="space-y-4 text-center lg:w-1/2 lg:space-y-10 *:lg:text-left">
         <h2 className="text-4xl lg:text-6xl">
-          Hello I'am{" "}
+          Hello I&apos;am{" "}
           <span className="font-bold">
             Someone
             <br />
