@@ -1,4 +1,5 @@
 import { Facebook, Twitter, Figma, Github } from "lucide-react";
+import Image from "next/image";
 
 export function Hero() {
   return (
@@ -44,8 +45,10 @@ export function Hero() {
         </div>
       </div>
       <div className="flex w-full justify-center lg:w-1/2 lg:justify-end">
-        <img
+        <Image
           src="/person.png"
+          width={500}
+          height={500}
           alt="hero"
           className="w-full max-w-sm dark:invert lg:max-w-full"
         />
