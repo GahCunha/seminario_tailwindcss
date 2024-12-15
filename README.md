@@ -363,18 +363,6 @@ plugins: [
 ],
 ```
 
-### Usar Variantes Personalizadas
-Adicione variantes para diferentes estados, como `hover`, `focus`, ou até mesmo criar suas próprias variantes:
-
-```javascript
-variants: {
-  extend: {
-    backgroundColor: ['active'],
-    textColor: ['visited'],
-  },
-},
-```
-
 ### Configurar Prefixos
 Evite conflitos com outras bibliotecas adicionando um prefixo a todas as classes:
 
